@@ -1,0 +1,226 @@
+@import './outils/mixins';
+@import './outils/variables';
+@import './style/header';
+@import './style/footer';
+@import './pages/le-concept';
+@import './pages/nos-articles';
+@import './pages/articles';
+@import './style/icons';
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+// Espace vide 
+
+.espace_vide{
+    width: 100%;
+    height: 25px;
+}
+
+// Partie Présentation
+
+.part_presentation{
+    width: 100%;
+    height: auto;
+    background-color: violet;
+}
+
+.img_fond{
+    width: 100%;
+    height: 800px;
+    background-image: url('/img/rotting-wood-texture.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img_chef_entreprise{
+    position: absolute;
+    width: 1770px;
+    height: 780px;
+    background-size: cover;
+    background-image: url('/img/man-working-at-startup.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    top: 100px;
+    left: 10px;
+    margin: auto;
+}
+
+.part_text_presentation{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.space_titre_presentation{
+    width: 100%;
+    height: auto;
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre_presentation{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    @include police;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+// Space Tronc 
+.space_tronc{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
+.space_img_tronc{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_tronc{
+    width: 100%;
+    height: auto;
+}
+
+.text_tronc{
+    width: 70%;
+    padding: 2rem;
+}
+
+.title_par_time{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: $couleur_or;
+    @include police;
+}
+
+.li_partie_time{
+    list-style: none;
+    text-decoration: none;
+    padding-top: 1rem;
+    @include police;
+}
+
+// Space prestations 
+
+.space_prestations{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: $background-gris;
+}
+
+.titre_prestations{
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    @include police;
+}
+
+.space_nombre_prestations{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nombre_seul{
+    font-size: 3rem;
+    margin: 15px auto 15px auto;
+    @include police;
+}
+
+.crochet_nombre{
+    color: $couleur_or;
+}
+
+.space_texte_sous_nombre{
+    width: 100%;
+    height: auto;
+    margin: 15px auto 15px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texte_sous_nombre{
+    font-size: 1.3rem;
+    text-align: center;
+    @include police;
+}
+
+.space_savoir_plus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto 50px auto;
+}
+
+.btn_savoir_plus{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: black;
+    @include police;
+}
+
+// Space Valeur Qualtiés 
+
+.space_valeurs_qualites{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 100px auto 50px auto;
+}
+
+.titre_valeurs_qualites{
+    @include police;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.img_valeurs_qualites{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 30px auto;
+}
+
+.sous_titre_valeurs_qualites{
+    margin: 0;
+    color: $couleur_or;
+    @include police;
+    font-size: 1rem;
+}
+
+.par_valeurs_qualites{
+    @include police;
+    font-size: 1rem;
+    font-weight: lighter;
+}

@@ -1,0 +1,105 @@
+.footer{
+    background-color: $background-gris;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.space_titre_footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titre_footer{
+    width: 30%;
+    height: 50px;
+    @include police;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space_social_footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space_in_footer{
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-linkedin, 
+.fa-whatsapp-square, 
+.fa-envelope,
+.fa-phone-square-alt{
+    font-size: 3rem;
+}
+
+.fa-linkedin{
+    color: #0077b5;
+}
+
+// Menu
+
+.fa-whatsapp-square{
+    color: #25d366;
+}
+
+.link_contact_accueil{
+    list-style: none;
+    text-decoration: none;
+}
+
+.ul_footer{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.li_nav_link_footer{
+    @include police;
+    list-style: none;
+    text-decoration: none;
+}
+
+.a_nav_link_footer{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.space_sous_footer{
+    width: 100%;
+    height: 30px;
+    background-color: $couleur_or;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space_link_legal{
+    width: 50%;
+    height: auto;
+    display: flex;
+    color: white;
+}
+
+.a_link_legal{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,53 @@
+.space_presentation_article{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto 25px auto;
+}
+
+.card_article{
+    width: 40%;
+    height: auto;
+    margin: 25px auto 25px auto;
+}
+
+.img_card_article{
+    width: 100%;
+    height: auto;
+}
+
+.space_sous_photo_card_article{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.titre_card_article{
+    width: 100%;
+    height: auto;
+    @include police;
+    font-size: 1.3rem;
+    color: $couleur_or;
+}
+
+.mini_text_card_article{
+    width: 100%;
+    height: auto;
+    @include police;
+    font-size: 1rem;
+}
+
+.link_card_article{
+    width: 100%;
+    height: auto;
+    @include police;
+    font-size: 1rem;
+    color: $couleur_or;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
