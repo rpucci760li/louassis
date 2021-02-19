@@ -197,6 +197,30 @@
   color: white;
 }
 
+.btn_return {
+  width: 15%;
+  height: auto;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.text_btn_return_article {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+
 .banniere_titre {
   width: 100%;
   height: 250px;
@@ -561,6 +585,8 @@
   width: 40%;
   height: auto;
   margin: 25px auto 25px auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.5) 1px 5px 10px;
 }
 
 .img_card_article {
@@ -592,6 +618,7 @@
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
   color: #D39500;
+  font-weight: 100;
 }
 
 .mini_text_card_article {
@@ -747,6 +774,11 @@
 .fa-calculator {
   position: absolute;
   font-size: 3rem;
+  color: #D39500;
+}
+
+.fa-arrow-alt-circle-left {
+  font-size: 2rem;
   color: #D39500;
 }
 

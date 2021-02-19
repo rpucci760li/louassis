@@ -1,0 +1,19 @@
+// Retour article 
+
+.btn_return{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.text_btn_return_article{
+    @include police;
+    font-size: 1.3rem;
+}

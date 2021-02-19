@@ -10,6 +10,7 @@
     width: 40%;
     height: auto;
     margin: 25px auto 25px auto;
+    @include shadow_card;
 }
 
 .img_card_article{
@@ -32,6 +33,7 @@
     @include police;
     font-size: 1.3rem;
     color: $couleur_or;
+    font-weight: 100;
 }
 
 .mini_text_card_article{
